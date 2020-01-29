@@ -1,0 +1,19 @@
+Training File ==> Trainer.ipynb
+Testing FIle ==> modelTester.ipynb
+Saved Model ==> TEST_93.h5
+
+The code is written on Python Keras using TF BackEnd.
+The X input has be processed using StandardScaling and
+the Y input has been processed using Hot Label Encoding.
+
+Approach 1:
+	Define a simple ANN model, using keras weight 
+initializers and trained it using RMSPROP opt with 200+ 
+batch size and 200 epochs. Acheived 93% test ACC
+
+Approach 2:
+	Define a simple ANN model but with K-FOLd method, 
+having 4 FOLDs on the train data. Acheiving 92% Test Accuracy
+
+
+Succesful approach is the 1st approach having 93% test acc
